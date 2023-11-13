@@ -28,11 +28,24 @@ To resolve this issue:
 
 Ebenezer Don 
                             
-
-
-                            
-
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ebenezer-don).
 
 [lil-course-url]: https://www.linkedin.com/learning/learning-redux-toolkit?dApp=59033956
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2899256/2899256-1663953888728-16x9.jpg
+
+### Running local test server using static data in JSON file
+
+`$ npx json-server ./src/data/productList.json -p 6666`
+
+  \{^_^}/ hi!
+
+  Loading ./src/data/productList.json
+  Done
+
+  Resources
+  http://localhost:6666/products
+
+  Home
+  http://localhost:6666
+
+  Type s + enter at any time to create a snapshot of the database
